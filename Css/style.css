@@ -6,10 +6,16 @@ body{
     justify-content: center;
     text-align: center;
     font-size: 15px;
+    margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;     
 }
 .love{
     text-align: center;
     color: white;
     padding: 0px;
     
+
 }
