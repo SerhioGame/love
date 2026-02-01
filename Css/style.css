@@ -19,4 +19,8 @@ body{
   align-items: center;     
 
 }
-
+.calash1{
+  height: 250px;
+  width: 160px;
+  object-fit: cover;
+}
