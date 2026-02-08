@@ -1,9 +1,9 @@
 body{
-    background-image: url('../img/backgarund.jpg');
+    /* background-image: url('../img/backgarund.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     background-color: black;
     font-family: 'Marck Script',cursive;
     
@@ -43,4 +43,9 @@ h2{
   height: 300px;
   width: 200px;
   object-fit: cover;
+}
+audio{
+ width: 300px; 
+ margin: 40px;
+ object-fit: cover;
 }
