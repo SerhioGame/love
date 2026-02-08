@@ -8,7 +8,7 @@
 </head>
 <body>
    
-    <audio autoplay  src="audio/love.mp3" > </audio>
+    
    <div class="text">
     <div class="life">
         <p class="love">
@@ -37,6 +37,11 @@
         <img class="calash1" src="img/IMG_20251221_002132.jpg" alt="">
         <img class="calash1" src="img/IMG_20251221_002015.jpg" alt="">
         <img class="calash1" src="img/IMG_20251221_002140.jpg" alt="">
+        <!-- <video class="vid" controls src="video/VID_20250814_222958.mp4"></video>
+        <video class="vid" controls src="video/VID_20250806_223045.mp4"></video>
+        <video class="vid" controls src="video/VID_20251230_184349.mp4"></video>
+        <video class="vid" controls src="video/VID_20251230_185130.mp4"></video>
+        <video class="vid" controls src="video/VID_20250805_220334.mp4"></video> -->
 
 
 
@@ -45,10 +50,14 @@
         </div> 
    </div>
     
+    
+   <audio autoplay controls id="kiss" src="audio/love.mp3" > </audio>
 
-
-
+   <script>
+       const audio =
+     document.getElementById('kiss');
+       audio.volume = 0.35;
+   </script>
 
 </body>
 </html>
-
